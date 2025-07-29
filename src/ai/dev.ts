@@ -1,0 +1,25 @@
+import { config } from 'dotenv';
+config();
+
+import '@/ai/flows/ai-diagnosis-assistant.ts';
+import '@/ai/flows/pill-identifier-flow.ts';
+import '@/ai/flows/drug-interaction-checker-flow.ts';
+import '@/ai/flows/antibiotic-guide-flow.ts';
+import '@/ai/flows/lab-interpretation-assistant-flow.ts';
+import '@/ai/flows/lab-report-analyzer-flow.ts';
+import '@/ai/flows/skin-lesion-classifier-flow.ts';
+import '@/ai/flows/x-ray-interpreter-flow.ts';
+import '@/ai/flows/mnemonic-generator-flow.ts';
+import '@/ai/flows/disease-summary-flow.ts';
+import '@/ai/flows/quiz-explanation-flow.ts';
+import '@/ai/flows/case-summary-generator-flow.ts';
+import '@/ai/flows/ddx-generator-flow.ts';
+import '@/ai/flows/soap-note-generator-flow.ts';
+import '@/ai/flows/case-simulation-flow.ts';
+import '@/ai/flows/urine-analyzer-flow.ts';
+import '@/ai/flows/pregnancy-safety-checker-flow.ts';
+import '@/ai/flows/contraindication-finder-flow.ts';
+import '@/ai/flows/report-explainer-flow.ts';
+import '@/ai/flows/ultrasound-interpreter-flow.ts';
+import '@/ai/flows/ct-scan-analyzer-flow.ts';
+import '@/ai/flows/mri-brain-atlas-flow.ts';
